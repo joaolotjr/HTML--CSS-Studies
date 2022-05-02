@@ -1,0 +1,132 @@
+/* Arquivo CSS */
+
+body {
+    color: white;
+    font-family: Arial;
+    font-style: italic;
+    background-color: white;
+    font-size: 20px;
+}
+
+img {
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+  }
+
+p  {
+    color: #06055c;
+    font-family: Comic Sans MS, Helvetica, Arial;
+        
+}
+
+*{ margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #35b8b0;
+    height: 200px;
+    padding: 20px;
+}
+
+#div_Esquerda{
+    background-color: white;
+    min-height: 650px;
+    width: 100%;
+    float: left;
+    background-image: url('fundo.jpg');
+    background-size: 100%;    
+    padding: 100px 0 0 0; 
+    margin: auto;  
+    clear:both;  
+
+}
+
+#logo{
+    float: left;
+}
+
+
+#menu{ 
+    float: right;
+    margin-top: 70px;
+
+
+}
+#menu a{
+    padding: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #111111;
+}
+#menu a:hover{
+    background-color: rgb(99, 228, 196);
+
+}
+
+
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 4px 4px 1px #111111;
+    padding: 50px 0 0 0;          
+}
+
+
+
+footer{
+    clear: both;
+    color: rgb(255, 255, 255);
+    background-color: #35b8b0;
+    height: 50px;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.cont{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 1px #111111;
+    text-align: center;
+    padding: 0 100px 100px 100px;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#div_direita{
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    min-height: 650px;
+    width: 100%;
+    float: right;
+    text-align: center;
+    
+
+}
